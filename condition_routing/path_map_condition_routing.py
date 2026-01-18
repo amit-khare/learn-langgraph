@@ -57,7 +57,7 @@ initial_state: ConditionState = {
     "result": ""
 }
 final_state = workflow.invoke(initial_state)
-print(f"Final Result: {final_state['result']}") # Output: Final Result: Value is small
+print(f"Final Result: {final_state['result']}") # Output: Final Result: Value is big
 
 print(f"Iterations: {final_state['iteration']}") # Output: Iterations: 1
 
